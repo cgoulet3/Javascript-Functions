@@ -46,9 +46,9 @@ function changeWatched(title) {
 		if (movie.title == title) {
 			console.log("changing the status of the movie...");
 			if (movie.havewatched == "true") {
-				movie.havewatched = false;
+				movie.havewatched = "false";
 			} else {
-				movie.havewatched = true;
+				movie.havewatched = "true";
 			}
 		}
 	}
